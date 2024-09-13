@@ -7,6 +7,7 @@ namespace APPR612_Activity2.Data
     {
         public DJContext(DbContextOptions<DJContext> options) : base(options) { }
             public DbSet<DJ> DJ {get;set;}
+            public DbSet<Venue> Venue { get;set;}
         
     }
 }
